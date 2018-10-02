@@ -9,7 +9,7 @@ red=(255,0,0)
 
 gameDisplay =pygame.display.set_mode((800,600))
 #game display is object &
-pygame.display.set_caption('RATTLE SNAKE')
+pygame.display.set_caption('Rattle Snake')
 pygame.display.update() #pygame.display.flip() are same with some
 #difference
 gameExit= False
@@ -43,7 +43,7 @@ while not gameExit:
     pygame.draw.rect(gameDisplay, black,[lead_x,lead_y,10,10])
     pygame.display.update()
 
-    clock.tick(10) #human eye can notice
+    clock.tick(15) #human eye can notice
 
 
 pygame.quit()
